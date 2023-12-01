@@ -5,7 +5,7 @@ const Intro = () => {
         <div className="cont" id='intro'> 
             <div className="intro">
                 <div className="name">DASARI BHUMIKA </div>
-                <div className="titles">SSN '23 | Syrause '25</div>
+                <div className="titles">SSN '23 | Syracuse '25</div>
                 <div className="one">
                 <Typewriter 
                 onInit={(typewriter)=>{
@@ -28,7 +28,7 @@ const Intro = () => {
                 />
                 </div>
                 <p className="resume" >
-                   <a href='https://drive.google.com/file/d/1173fNhKf4andQJkW1U-O5i7qF8oraE3F/view?usp=sharing'> Resume</a>
+                   <a href='https://drive.google.com/file/d/1a6IrTBI-obovjqzKxnwDwCYUcSxesFOV/view?usp=sharing'> Resume</a>
                 </p>
             </div>
             <div className="ima">

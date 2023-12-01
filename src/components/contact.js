@@ -12,7 +12,7 @@ const Contact = () => {
                 <a className="gb" href="https://github.com/dasaribhumika"><ImGithub size={"30px"}/></a>
                 <a className="wp" href="https://dasaribhumika.blogspot.com/"><SiBlogger size={"30px"}/></a>
             </div>
-        <p className="source"><a href=""><u>View Source Code</u></a></p>
+        <p className="source"><a href="https://github.com/dasaribhumika/Portfolio"><u>View Source Code</u></a></p>
         <p style={{margin:'2%'}}>  COPYRIGHT © 2023 Dasari Bhumika </p>
         </div>
      );
