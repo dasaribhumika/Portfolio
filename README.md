@@ -1,7 +1,5 @@
 ## My Portfolio
 
-This is my portfolio website which showcases about me,my skills and my projects
-
 Link : https://bhumika-dasari-portfolio.netlify.app/
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
