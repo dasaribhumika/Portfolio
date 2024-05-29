@@ -2,7 +2,7 @@
 
 This is my portfolio website which showcases about me,my skills and my projects
 
-Link : http://raj-s.surge.sh/
+Link : https://bhumika-dasari-portfolio.netlify.app/
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
