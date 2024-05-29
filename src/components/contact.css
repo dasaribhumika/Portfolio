@@ -1,50 +1,96 @@
-.contact{
+/* General Contact Styles */
+.contact {
     text-align: center;
 }
-.item{
+
+/* Contact Item Styles */
+.item {
     text-align: center;
     padding: 35px;
     margin-bottom: 2px;
     margin-top: 100px;
 }
-.wp{
+
+/* WhatsApp Icon Styles */
+.wp {
     padding: 20px;
     transition: 0.8s;
 }
-.wp:hover{
+
+.wp:hover {
     color: orange;
     padding: 30px;
     transform: scale(1.3);
 }
-.li{
+
+/* LinkedIn Icon Styles */
+.li {
     padding: 25px;
     transition: 0.8s;
 }
-.li:hover{
+
+.li:hover {
     color: blue;
     padding: 30px;
     transform: scale(1.3);
 }
 
-.gb{
+/* General Button Styles */
+.gb {
     padding: 20px;
     transition: 0.8s;
 }
-.gb:hover{
+
+.gb:hover {
     color: rgb(72, 8, 72);
     padding: 30px;
     transform: scale(1.3);
 }
-.gm{
+
+/* Gmail Icon Styles */
+.gm {
     padding: 20px;
     transition: 0.8s;
 }
-.gm:hover{
+
+.gm:hover {
     color: crimson;
     padding: 30px;
     transform: scale(1.3);
 }
 
-.source a:hover{
-    color: rgb(227, 157, 127);;
+/* Source Link Hover Styles */
+.source a:hover {
+    color: rgb(227, 157, 127);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .item {
+        padding: 25px;
+        margin-top: 50px;
+    }
+
+    .wp, .li, .gb, .gm {
+        padding: 15px;
+    }
+
+    .wp:hover, .li:hover, .gb:hover, .gm:hover {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .wp, .li, .gb, .gm {
+        padding: 10px;
+    }
+
+    .wp:hover, .li:hover, .gb:hover, .gm:hover {
+        padding: 15px;
+    }
 }

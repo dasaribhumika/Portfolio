@@ -28,7 +28,7 @@ const Intro = () => {
                 />
                 </div>
                 <p className="resume" >
-                   <a href='https://drive.google.com/file/d/1a6IrTBI-obovjqzKxnwDwCYUcSxesFOV/view?usp=sharing'> Resume</a>
+                   <a href='https://drive.google.com/file/d/1P7f6X84wO7sjqO-vDnq29LmP_26TdIJG/view?usp=sharing'> Resume</a>
                 </p>
             </div>
             <div className="ima">

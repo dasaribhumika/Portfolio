@@ -2,6 +2,19 @@ import "./project.css"
 import ProjectCard from "./ProjectCard";
 const Project = () => {
     const data = [
+        {   title: ' React Projects - Portfolio',
+            color: 'rgb(255, 205, 173)',
+            border: 'rgb(258, 228, 156)',
+            description: [
+                'Created React-based applications demonstrating mastery of core concepts (components, states, effects, animations)\,curated into a Linktree portfolio for streamlined access.'
+            ],
+            tech: [
+                { name: 'React', badge: 'https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB' },
+               
+            ],
+            git: 'https://github.com/dasaribhumika/Shopping-Cart-React',
+            demo: 'https://linktr.ee/bhumikadasari',
+        },
         {   title: ' E-Learning Platform Recommendation using EEG',
             color: 'rgb(149, 125, 173)',
             border: 'rgb(118, 98, 156)',
@@ -65,49 +78,12 @@ const Project = () => {
             ],
             git: 'https://github.com/dasaribhumika/House-Price-Predictor',
         },
-        {   title: 'Tic Tac Toe',
-            color: 'rgb(126, 178, 223)',
-            border: ' rgb(13, 184, 197)',
-            description: [
-                'Implemented interactive Tic-Tac-Toe game using React', 
-            ],
-            tech: [
-                { name: 'React', badge: 'https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white' },
-                { name: 'Visual Studio Code', badge: 'https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white' },
-                { name: 'GitHub', badge: 'https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white' },
-            ],
-            git: 'https://github.com/dasaribhumika/Tic-Tac-Toe-React-Project',
-            demo: 'https://tictactoe-react-project.netlify.app/'
-        },
-        {   title: 'Timer Challenge Game',
-            color: 'rgb(255, 145, 128)',
-            border: 'rgb(285, 119, 119)',
-            description: ['Programmed Timer Challene Game using React'],
-            tech: [
-                { name: 'React', badge: 'https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white' },
-                { name: 'Visual Studio Code', badge: 'https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white' },
-                { name: 'GitHub', badge: 'https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white' },
-            ],
-            git: 'https://github.com/dasaribhumika/Timer-Challenge',
-            demo: 'https://react-timer-challenge.netlify.app/'
-        },
-        {   title: 'Investment Calculator',
-            color: 'rgb(254, 229, 81)',
-            border: 'rgb(230, 188, 5)',
-            description: ['Coded and deployed Investment Calculator'],
-            tech: [
-                { name: 'React', badge: 'https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white' },
-                { name: 'Visual Studio Code', badge: 'https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white' },
-                { name: 'GitHub', badge: 'https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white' },
-            ],
-            git: 'https://github.com/dasaribhumika/Investment-Calculator-React-Project',
-            demo: 'https://investment-calculator-react-project.netlify.app/'
-        }
+        
     ]
 
     return(
         <div className='projects'>
-            <p style={{margin:'3%',fontSize:'40px'}}>Projects</p>
+            <p style={{margin:'3%',fontSize:'40px', fontFamily: 'Montserrat'}}>Projects</p>
             <ProjectCard  data={data}/>
         </div>
     );

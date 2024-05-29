@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
                             );
                         })}
                     </ul>
-                    <p style={{fontSize: 'small'}}><i>
+                    <p style={{fontSize: 'large'}}><i>
                     {Array.isArray(item.tech) &&
                                     item.tech.every((techItem) => typeof techItem === 'object' && 'name' in techItem && 'badge' in techItem) &&
                                     item.tech.map((techItem, k) => (
